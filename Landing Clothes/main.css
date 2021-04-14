@@ -310,3 +310,48 @@ a:hover{
   margin-top: 20px;
 }
 
+
+/* MEDIA */
+
+@media screen and (max-width: 680px){
+  .header-container{
+    min-height: 525px;
+  }
+  .header-phonenumber{
+    top: 5px;
+    right: 5px;
+  }
+  .header-logo-img{
+    position: static;
+  }
+  .header-link{
+    position: static;
+  }
+  .features-wrapper{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .features-feature{
+    margin-top: 50px;
+  }
+  .features-title{
+    font-size: 30px;
+  }
+  .goods-outer{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .goods-inner{
+    margin-top: 50px;
+  }
+  .promo-title-wrapper h2{
+    font-size: 50px;
+  }
+  .promo-line{
+    width: 80%;
+  }
+  .features-button{
+    width: 80%;
+  }
+
+
